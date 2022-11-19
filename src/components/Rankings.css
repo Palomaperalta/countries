@@ -1,0 +1,41 @@
+.rankings{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 10px;
+   flex-direction: column;
+align-items: center;
+}
+
+.buttonranking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    gap: 15px;
+}
+.buttonranking > button{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #666666;
+    border-width: 1px;
+    border-color: orange;
+    font-size: 1rem;
+    font-family: "Poppins";
+    letter-spacing: .075rem;
+}
+.buttonranking > button:hover {
+      background-color: #F8E7E7;
+      color: black;
+ }
+ .rankingdescription{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: "Poppins";
+    letter-spacing: .075rem;
+    font-weight: 600;
+    font-size: 20px;
+    }

@@ -1,0 +1,48 @@
+.card{
+    width: 25%;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 0.2rem;
+    background: #FFFFFF;
+    margin: 10px;
+    font-family: "Poppins"
+}
+.card:hover {
+    box-shadow: 0 0.1rem 1rem #cfc9c7;
+    -webkit-transition: all .2s ease-in;
+    transform: scale(1.015);
+}
+.name{
+    display: flex;
+    justify-content: center;
+    color: orange;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: .075rem;
+    margin-bottom: 10px;
+}
+.caracteristica > span:first-of-type {
+    font-weight: 600;
+}
+.caracteristica > span:not(:first-of-type):not(:last-of-type)::after{
+    content: ", "
+}
+.caracteristica{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    font-size: 18px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+
+.flag > img{
+    height: 100px;
+    width: 150px;
+}
+.flag{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}

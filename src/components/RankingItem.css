@@ -1,0 +1,11 @@
+.populationname{
+    font-size: 20px;
+    font-family: "Poppins";
+    letter-spacing: .075rem;
+    margin: 6px;
+}
+.populationnumber{
+    font-weight: 600;
+    font-size: 20px;
+    color: orange;
+}

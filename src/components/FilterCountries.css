@@ -1,0 +1,43 @@
+.div-input{
+    display: flex;
+    flex-direction: column;
+}
+.search-input{
+    color: orange;
+    width: 40%;
+    height: 4rem;
+    margin: 2rem auto;
+    text-indent: 2rem;
+    outline: none;
+    border: 0.2rem solid #f8e7e7;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    background-color: #F8E7E7;
+}
+.search-input:focus, .search-input:hover{
+    box-shadow: 0 0 0.1rem 0.1rem #ece6e6;
+    background: #faf6f6;
+}
+.divbutton{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    color: orange;
+}
+.buttonrankings{
+    width: 100px;
+    height: 80px;
+    cursor: pointer;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #666666;
+    border-width: 1px;
+    border-color: orange;
+}
+.buttonrankings:hover {
+      background-color: #F8E7E7;
+      color: white;
+ }

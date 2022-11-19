@@ -12,11 +12,14 @@ function App() {
   const ref = useRef(null);
   const refTitle = useRef(null);
   const [countries, setCountries] = useState([])
+  const [loading, setLoading] = useState(false)
 
   async function getCountries() {
+    setLoading(true)
      const response = await fetch('https://restcountries.com/v3.1/all')
      const responsecountries = await response.json()
      setCountries(responsecountries)
+     setLoading(false)
  }
 
   useEffect(() =>{
@@ -30,7 +33,7 @@ function App() {
       </div>
       <FilterCountries setCountries={setCountries} getCountries={getCountries} divref={ref}></FilterCountries>
       <div className='cardcontainer'>
-        {countries.map(country =>{
+        {loading ? <span className='loading'>Loading...</span> : countries.map(country =>{
           return <CardCountries country={country}></CardCountries>
         })}
       </div>

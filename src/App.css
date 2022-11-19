@@ -16,3 +16,9 @@
     height: 60px;
     color: orange;
 }
+.loading{
+    font-family: "Poppins";
+    letter-spacing: .075rem;
+    font-size: 25px;
+    height: 100vh;
+}
